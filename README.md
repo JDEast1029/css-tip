@@ -10,3 +10,14 @@
   background-position: center center;
 }
 ```
+
+```text
+input disable属性下面 更改文本框或者按钮的颜色（对IOS兼容处理）
+
+input:disabled, input[disabled]{ 
+  color: red; 
+  -webkit-text-fill-color:red; 
+  -webkit-opacity:1; 
+  opacity: 1; 
+}
+```
